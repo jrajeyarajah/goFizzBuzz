@@ -29,5 +29,6 @@ func main() {
 	start := time.Now()
 	goThrough(1, 350)
 	diff := time.Since(start)
+	print("took: ")
 	println(diff)
 }
